@@ -1,0 +1,8 @@
+C:\Users\Francisco\Desktop\Pis\ProyectoNRP\ProyectoNRP\ProyectoNRP\obj\Debug\App.g.cs
+C:\Users\Francisco\Desktop\Pis\ProyectoNRP\ProyectoNRP\ProyectoNRP\obj\Debug\ClientAdd.g.cs
+C:\Users\Francisco\Desktop\Pis\ProyectoNRP\ProyectoNRP\ProyectoNRP\obj\Debug\MainWindow.g.cs
+C:\Users\Francisco\Desktop\Pis\ProyectoNRP\ProyectoNRP\ProyectoNRP\obj\Debug\RequirementsTable.g.cs
+C:\Users\Francisco\Desktop\Pis\ProyectoNRP\ProyectoNRP\ProyectoNRP\obj\Debug\RequisiteAdd.g.cs
+C:\Users\Francisco\Desktop\Pis\ProyectoNRP\ProyectoNRP\ProyectoNRP\obj\Debug\ProyectoNRP_Content.g.cs
+C:\Users\Francisco\Desktop\Pis\ProyectoNRP\ProyectoNRP\ProyectoNRP\obj\Debug\ProyectoNRP_MarkupCompile.cache
+C:\Users\Francisco\Desktop\Pis\ProyectoNRP\ProyectoNRP\ProyectoNRP\obj\Debug\ProyectoNRP_MarkupCompile.lref
