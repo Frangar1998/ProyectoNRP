@@ -1,1 +1,90 @@
-<p>add-requisito works!</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">Añadir requisitos</h3>
+        </div>
+    </div>
+    <div class="row justify-content-between">
+        <div class="col-md-5">
+            <form>
+                <div class="form-group">
+                    <label>Nombre del requisito</label>
+                    <input type="text" class="form-control" />
+                </div>
+            </form>
+        </div>
+        <div class="col-md-3">
+            <form>
+                <div class="form-group">
+                    <label>Esfuerzo del requisito (1-10)</label>
+                    <input type="number" class="form-control" />
+                </div>
+            </form>
+        </div>
+        <div class="col-md-2 align-self-center">
+            <button type="button" class="btn btn-outline-primary">Añadir requisito</button>
+        </div>
+        <div class="col-md-2 align-self-center">
+            <button type="button" class="btn btn-outline-info">Añadir requisitos desde archivo</button>
+        </div>
+    </div>
+    <div class="row justify-content-between">
+        <div class="col-md-6">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" width="60%">Cliente</th>
+                            <th scope="col" width="40%">Valoración</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Francisco Jesús García López</td>
+                            <input type="range" class="custom-range" min="1" max="5" step="1" id="valoracion">
+                        </tr>
+                        <tr>
+                            <td>Francisco Jesús García López</td>
+                            <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                        </tr>
+                        <tr>
+                            <td>Francisco Jesús García López</td>
+                            <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col" width="80%">Nombre</th>
+                                <th scope="col" width="5%">Peso</th>
+                                <th scope="col" width="10%">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Francisco Jesús García López</td>
+                                <td>4</td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                            <tr>
+                                <td>Francisco Jesús García López</td>
+                                <td>4</td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                            <tr>
+                                <td>Francisco Jesús García López</td>
+                                <td>4</td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    </div>
+
+</div>
