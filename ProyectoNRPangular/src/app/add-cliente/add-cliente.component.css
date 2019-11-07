@@ -1,0 +1,37 @@
+.clientes-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nombre-cliente-container {
+    padding-left: 0px !important;
+}
+
+.peso-cliente-control {
+    width: 85% !important;
+}
+
+.peso-cliente-container {
+    padding-left: 0px !important;
+}
+
+.add-cliente-container {
+    padding-left: 0px !important;
+}
+
+.add-cliente-container-from-file {
+    padding-left: 0px !important;
+}
+
+.center-column-table {
+    text-align: center;
+}
+
+.title-clientes {
+    margin: 1% 0 1% 0;
+}
+
+.title-container {
+    padding-left: 0px !important;
+}
