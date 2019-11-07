@@ -6,29 +6,43 @@
     </div>
     <div class="row justify-content-between">
         <div class="col-md-5">
-            <form>
+            <form [formGroup]="angForm" novalidate>
                 <div class="form-group">
                     <label>Nombre del cliente</label>
-                    <input type="text" class="form-control" />
+                    <input type="text" class="form-control" formControlName="NombreCliente" #NombreCliente />
+                </div>
+                <div *ngIf="angForm.controls['NombreCliente'].invalid && 
+                (angForm.controls['NombreCliente'].dirty || 
+                angForm.controls['NombreCliente'].touched)" class="alert alert-danger">
+                    <div *ngIf="angForm.controls['NombreCliente'].errors.required">
+                        Se requiere un nombre
+                    </div>
                 </div>
             </form>
         </div>
         <div class="col-md-3">
-            <form>
+            <form [formGroup]="angForm" novalidate>
                 <div class="form-group">
                     <label>Peso del cliente (1-5)</label>
-                    <input type="number" class="form-control" />
+                    <input type="number" class="form-control" formControlName="PesoCliente" #PesoCliente />
+                </div>
+                <div *ngIf="angForm.controls['PesoCliente'].invalid && (angForm.controls['PesoCliente'].dirty || angForm.controls['PesoCliente'].touched)"
+                    class="alert alert-danger">
+                    <div *ngIf="angForm.controls['PesoCliente'].errors.required">
+                        Se requiere un peso
+                    </div>
                 </div>
             </form>
         </div>
-        <div class="col-md-2 align-self-center">
-            <button type="button" class="btn btn-outline-primary">Añadir cliente</button>
+        <div class="col-md-2 align-self-center form-group">
+            <button type="button" class="btn btn-outline-primary"
+                [disabled]="angForm.pristine || angForm.invalid">Añadir cliente</button>
         </div>
         <div class="col-md-2 align-self-center">
             <button type="button" class="btn btn-outline-info">Añadir clientes desde archivo</button>
         </div>
     </div>
-    <div class="row justify-content-md-center" >
+    <div class="row justify-content-md-center">
         <div class="col-md-8">
             <div class="table-responsive">
                 <table class="table table-bordered table-hover table-sm">
